@@ -24,5 +24,24 @@ public class Main {
         l1.display();
         l1.insert(90, 11);
         l1.display();
+
+//        l1.deleteByPosition(1);
+//        l1.display();
+//        l1.deleteByPosition(4);
+//        l1.display();
+//        l1.deleteByPosition(6);
+//        l1.display();
+//        System.out.println(
+//            l1.deleteByPosition(6)
+//        );
+//        l1.display();
+
+        l1.displayReverse1();
+        l1.displayReverse2();
+        l1.displayReverse3(l1.getHead());
+        System.out.println();
+
+        l1.reverse();
+        l1.display();
     }
 }
